@@ -8,7 +8,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - ./HelloWorldFunction/mvnw test 
+      - cd HelloWorldFunction
+      - mvnw test 
   post_build:
     commands:
       - echo Build completed on `date`
