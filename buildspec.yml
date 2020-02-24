@@ -9,6 +9,7 @@ phases:
     commands:
       - echo Build started on `date`
       - cd HelloWorldFunction
+      - pwd
       - mvnw test 
   post_build:
     commands:
