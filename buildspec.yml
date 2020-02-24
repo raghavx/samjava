@@ -9,11 +9,7 @@ phases:
     commands:
       - echo Build started on `date`
       - sam build
-      - cd HelloWorldFunction
-      - pwd
-      - ./mvnw compile 
+  
   post_build:      
     commands:
-      - echo Build completed on `date`
-      - pwd      
-      - ./mvnw package
+      - echo Build completed on `date`   
