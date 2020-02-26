@@ -9,7 +9,10 @@ phases:
     commands:
       - echo Build started on `date`
       - sam build
-  
+    
   post_build:      
     commands:
       - echo Build completed on `date`   
+artifacts:
+    files:
+      - ./.aws-sam/build/HelloWorldFunction/lib/*.*
