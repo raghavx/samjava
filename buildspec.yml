@@ -15,4 +15,4 @@ phases:
       - echo Build completed on `date`   
 artifacts:
     files:      
-      - ./.aws-sam/build/template.yaml
+      - template.yaml
