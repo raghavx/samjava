@@ -14,5 +14,5 @@ phases:
     commands:
       - echo Build completed on `date`   
 artifacts:
-    files:
-      - ./.aws-sam/build/HelloWorldFunction/lib/*.*
+    files:      
+      - ./.aws-sam/build/template.yaml
